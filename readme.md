@@ -1,6 +1,6 @@
 # Golang
 
-**This repository contains various tutorials and learning materials for Golang, For quick overlook you can look into [cheatsheet](Golang cheatsheet.pdf)**
+**This repository contains various tutorials and learning materials for Golang, For quick overlook you can look into [cheatsheet](Golang%20cheatsheet.pdf)**
 
 ## Table of Contents
 
