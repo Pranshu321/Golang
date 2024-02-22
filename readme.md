@@ -1,5 +1,38 @@
 # Golang
 
+**This repository contains various tutorials and learning materials for Golang.**
+
+## Table of Contents
+
+- [01HelloWorld](01HelloWorld)
+- [02Variables](02Variables)
+- [03Input](03Input)
+- [04Conversions](04Conversions)
+- [05DateandTime](05DateandTime)
+- [07mypointers](07mypointers)
+- [08Array](08Array)
+- [09Slices](09Slices)
+- [10map](10map)
+- [11Structs](11Structs)
+- [12IfElse](12IfElse)
+- [13Functions](13Functions)
+- [14Defer](14Defer)
+- [15Files](15Files)
+- [16WebRequests](16WebRequests)
+- [17HandlingURLS](17HandlingURLS)
+- [18Server](18Server)
+- [20BitMoreJSON](20BitMoreJSON)
+- [21BuildAPI](21BuildAPI)
+- [22modImportance](22modImportance)
+- [23Mongo](23Mongo)
+- [24GoRoutines](24GoRoutines)
+- [25RaceCondition](25RaceCondition)
+- [26Deadlock](26Deadlock)
+- [27Maths](27Maths)
+
+
+## Important Things to remember
+
 - No switch case
 - No function overloading , overriding
 - No generics
