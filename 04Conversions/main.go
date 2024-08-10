@@ -26,7 +26,7 @@ func main() {
 	if err != nil {
 		fmt.Println("Error occured", err)
 	} else {
-		numRating++
+		// numRating++
 		fmt.Println("Thanks for rating ", numRating)
 	}
 }

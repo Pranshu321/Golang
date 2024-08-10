@@ -14,13 +14,11 @@ func main() {
 	// add := &one
 
 	num := 10
-	var ptr *int = &num
-	var doubleptr **int = &ptr
-
-	// Operation
+	ptr := &num
+	dptr := &ptr
+	fmt.Println("Value of num is ", num)
 	*ptr = *ptr + 2
-	fmt.Println(num)
+	fmt.Println("Value of num is ", num)
 
-	// fmt.Println(*ptr)
-	fmt.Println(**doubleptr)
+	fmt.Println("Value of [[ptr]] is ", **dptr)
 }

@@ -1,7 +1,11 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
+	"strconv"
+	"strings"
 )
 
 type person struct {
@@ -41,7 +45,11 @@ func main() {
 
 	fmt.Println(pranshu)
 	pranshu.GetStatus()
-	pranshu.SetAge(32)
+	in := bufio.NewReader(os.Stdin)
+	fmt.Println("Enter new age: ")
+	val, _ := in.ReadString('\n')
+	intval, _ := strconv.Atoi(strings.TrimSpace(val))
+	pranshu.SetAge(intval)
 	fmt.Println(pranshu)
 
 	// fmt.Printf("pranshu details: %+v\n", pranshu)

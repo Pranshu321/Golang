@@ -27,7 +27,7 @@ func main() {
 
 	go func(ch chan int, wg *sync.WaitGroup, m *sync.RWMutex) {
 		myCh <- 5
-		// myCh <- 6
+		myCh <- 6
 		close(myCh)
 		wg.Done()
 	}(myCh, wg, mut)
